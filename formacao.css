@@ -1,0 +1,43 @@
+/*
+    PARA FACILITAR MANUTENCAO AS PROPRIEDADES ESTARAO EM ORDEM ALFABETICA    
+*/
+
+/* alteracoes globais de css */
+* {
+    margin: 0;
+    padding: 0;
+ }
+
+/* cor de fundo da pagina*/
+body {
+    background-color: black;
+}
+
+/* estilo do campo princial de texto e imagem */
+main {
+    align-items: center;
+    direction: row;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    justify-content: space-around;
+}
+
+/* estilo do texto da pagina */
+.texto {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+/* estilo do h1 da pagina */
+.texto h1 {
+    font-size: 300%;
+}
+
+/* estilo da foto da pagina */
+.imagem {
+    display: flex;
+    height: 400px;
+}

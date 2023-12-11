@@ -1,0 +1,79 @@
+/*
+    ESTIILIZACAO DOS MENUS E RODAPES DE TODAS AS PAGES
+    PARA FACILITAR MANUTENCAO AS PROPRIEDADES ESTARAO EM ORDEM ALFABETICA 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    Estilo do cabecalho incluindo toda a barra de navegacao e logotipo
+*/
+header {
+    align-items: center;
+    box-shadow: 0px, 30px, 10px #464646;
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    justify-content: space-around;
+    padding: 50px 30px 10px 30px;
+}
+
+.logo {
+    color: black;
+    font-family: 'Fog Sans', sans-serif;
+    font-size: 200%;
+    justify-content: center;
+}
+
+
+nav {
+    display: flex;
+    padding: 0.5rem 2rem;
+}
+
+nav a {
+    color: white;
+    font-size: 125%;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+/* link nao visitado */
+nav a:link {
+    color: burlywood;
+}
+
+/* link visitado */
+nav a:visited {
+    color: chocolate;
+}
+
+/* link nao visitado */
+nav a:hover {
+    background-color: gray;
+    border: none;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+body {
+    background-color: black;
+}
+
+/* estilo do rodape das paginas */
+footer {
+    align-items: center;
+    border-top: 1px white dashed;
+    color: white;
+    display: flex;
+    font-family: arial;
+    justify-content: space-around;
+    margin-left: 70px;
+    margin-top: 2px;
+    max-width: 1170px;
+    padding-top: 20px;
+}

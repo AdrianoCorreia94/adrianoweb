@@ -1,0 +1,64 @@
+/*
+    PARA FACILITAR MANUTENCAO AS PROPRIEDADES ESTARAO EM ORDEM ALFABETICA    
+*/
+
+
+/* alteracoes globais */
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+/* cor de fundo da pagina */
+body {
+    background-color: black;
+}
+
+/* organizacao do conteudo da pagina*/
+main {
+    align-items: center;
+    direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* estilo do texto principal da pagina */
+.texto {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* estilho do h1 da pagina*/
+.texto h1 {
+    font-size: 500%;
+}
+
+/* estilo do botao para acessar perfil do linkedin*/
+.botao {
+    background-color: royalblue;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 100%;
+    gap: 10px;
+    height: 50px;
+    width: 120px;
+}
+
+/* cor e estilo do texto dentro do botao*/
+.botao a {
+    color: white;
+    text-decoration: none;
+}
+
+/* cor do texto ao color poteiro do mouse em cima do botao*/
+.botao :hover {
+    color: aquamarine;
+}
+
+.imagem {
+    display: flex;
+    height: 600px;
+}

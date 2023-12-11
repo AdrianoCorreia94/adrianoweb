@@ -1,0 +1,73 @@
+/*
+    PARA FACILITAR MANUTENCAO AS PROPRIEDADES ESTARAO EM ORDEM ALFABETICA    
+*/
+
+
+/* cor de fundo da pagina */
+body {
+    background-color: black;
+}
+
+/* organizacao da area do conteudo principal*/
+main {
+    align-items: center;
+    direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* configuracao da imagem */
+.imagem {
+    display: flex;
+    height: 600px;
+}
+
+/* estilos de fonte do formulario */
+.formulario {
+    color: white;
+    font-family: arial;
+}
+
+.formulario label {
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+/* largura e altura do campo de nome */
+.campoNome {
+    width: 320px;
+    height: 20px;
+}
+
+/* largura e altura da area de mensagem */
+.textarea {
+    height: 250px;
+    width: 320px;
+}
+
+/* largura e altura do campo de email */
+.campoEmail {
+    height: 20px;
+    width: 320px;
+}
+
+/* padding para distanciar os campos*/
+.divNome {
+    padding-top: 15px;
+}
+
+/* padding para distanciar os campos */
+.divEmail {
+    padding: 15px 0px;
+}
+
+/* estilo do botao enviar mensagem */
+.botaoEnviar {
+    cursor: pointer;
+    height: 25px;
+    width: 50px;
+}
+
+.botaoEnviar:hover {
+    background-color: burlywood;
+}
